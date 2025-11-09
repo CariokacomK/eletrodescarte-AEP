@@ -1,0 +1,93 @@
+.heroContainer {
+  display: grid;
+  grid-template-columns: 3fr 2fr; 
+  align-items: center;
+  gap: 3rem;
+  
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 3rem;
+  
+  background-color: var(--card-background);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.heroTitle {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+  opacity: 0.8;
+  margin-top: 1.5rem;
+  max-width: 500px;
+}
+
+.buttonContainer {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 1rem;
+}
+
+.heroImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: contain;
+}
+
+.ctaButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid var(--primary-color);
+}
+
+.ctaButton {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.ctaButton:hover {
+  background-color: #248a7f;
+  transform: scale(1.03) translateY(-2px);
+  box-shadow: 0 6px 12px rgba(42, 157, 143, 0.3);
+}
+
+.secondaryButton {
+  background-color: var(--card-background);
+  color: var(--primary-color);
+}
+
+.secondaryButton:hover {
+  background-color: #e0f2f1;
+  transform: scale(1.03) translateY(-2px);
+}

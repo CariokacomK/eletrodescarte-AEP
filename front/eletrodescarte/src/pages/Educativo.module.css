@@ -1,0 +1,63 @@
+.pageHeader {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.pageHeader h2 {
+  font-size: 2.2rem;
+  margin: 0;
+  color: var(--secondary-color);
+}
+
+.pageHeader p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 4rem;
+  color: var(--secondary-color);
+}
+
+.card {
+  max-width: 800px;
+  margin: 1.5rem auto;
+  background-color: var(--card-background);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  position: relative;
+}
+
+.cardTitle {
+  margin: 0 0 1rem 0;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+}
+
+.cardBody {
+  line-height: 1.6;
+}
+
+.badge {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+}
